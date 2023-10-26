@@ -17,8 +17,11 @@ def multiply(n1, n2):
 
 
 # Divide function
-def divde(n1, n2):
-    return n1 / n2
+def divde(n1,n2):
+  if n2==0:
+    print("Invalid entry: Division by Zero")
+    return n1
+  else: return n1/n2
 
 
 operations = {
